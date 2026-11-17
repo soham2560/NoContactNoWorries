@@ -1,0 +1,9 @@
+# install torch / torchvision first, matching your CUDA version, e.g.
+#   pip install torch==2.5.1 torchvision==0.20.1 --index-url https://download.pytorch.org/whl/cu124
+numpy
+pyyaml
+timm>=0.9
+thop
+accelerate>=0.34
+wandb
+gdown

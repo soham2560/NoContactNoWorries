@@ -1,0 +1,20 @@
+seed: 1
+epochs: 200
+batch_size: 32
+horizon: 8
+lr: 0.0005
+max_grad_norm: 1.0
+log_dir: logs
+train_data_dir: data/train_data
+# train_data_dir: data_held
+cube_val: data/val_data/cube
+dodec_val: data/val_data/dodec
+letter_r_val: data/val_data/letter_r
+pent_val: data/val_data/pent
+star_val: data/val_data/star
+stairs_val: data/val_data/stairs
+hex_prism_val: data/val_data/hex_prism
+checkpoint_dir: checkpoints/CT_without_seg
+asym_ckpt: checkpoints/AsymFormer_NYUv2.pth
+use_wandb: True
+wandb_entity: null # your wandb user / team, null uses your default

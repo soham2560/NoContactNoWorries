@@ -1,0 +1,16 @@
+*.npy
+*.png
+**/__pycache__/ 
+.vscode
+*.egg-info/
+checkpoints/*
+!checkpoints/.gitkeep
+!checkpoints/download_ckpts.sh
+data
+data_*
+wandb
+__pycache__
+*.sif
+job.*
+*.out
+*.7z

@@ -1,0 +1,10 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "NoContactNoWorries"
+version = "0.1.0"
+description = "Estimating Contact through purely Visual means, a step towards better purely visual manipulation"
+authors = [{name = "Soham Patil", email = "soham.patil@research.iiit.ac.in"}]
+dependencies = []
